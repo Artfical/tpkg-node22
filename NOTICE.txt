@@ -1,0 +1,24 @@
+Node.js 22.23.4 and npm 10.9.9 for tOS
+===========================================
+
+This package is the official Node.js 22.23.4 linux-x64 release, unmodified, with the npm 10.9.9 that
+comes with it. Nothing in either was changed. What was left out: the C headers (include/), the
+manual pages and documentation (share/, doc/), and npm's bin links (tpkg.commands puts node, npm
+and npx on the PATH instead).
+
+Licenses
+--------
+- Node.js: MIT. LICENSE (beside this file) is Node.js's own, with the licenses of everything it
+  includes: V8, OpenSSL, ICU, libuv, c-ares, llhttp, zlib, ngtcp2, undici and the rest.
+- npm: the Artistic License 2.0 (lib/node_modules/npm/LICENSE). The packages npm itself uses
+  carry their own licenses in lib/node_modules/npm/node_modules/*/.
+- The GNU C Library (glibc), libstdc++ and libgcc: this program is linked against them
+  dynamically. tOS's base system carries them in /lib64 and /lib/x86_64-linux-gnu, with their
+  versions, licenses (LGPL-2.1 or later; GPL-3 with the GCC Runtime Library Exception) and
+  source locations in /lib/x86_64-linux-gnu/LICENSES.txt. Because the link is dynamic, they can
+  be replaced by another build of the same libraries.
+
+Source
+------
+- Node.js: https://nodejs.org/dist/v22.23.4/node-v22.23.4-linux-x64.tar.xz (the
+  release used as is); its source: https://nodejs.org/dist/v22.23.4/node-v22.23.4.tar.xz

@@ -1,0 +1,22 @@
+{
+ "name": "node22",
+ "version": "22.23.4",
+ "license": "MIT; npm Artistic-2.0",
+ "homepage": "https://nodejs.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "desc": "Node.js 22.23.4 and npm 10.9.9 (the official linux-x64 build; 64-bit tOS)",
+ "file": "node22-22.23.4.tpkg",
+ "size": 46429532,
+ "sha256": "d2951868c94b10b8d4e565bc2bfc69fb444dcfbba91585fc2a027ac1b56e91ad",
+ "unpacked": 137779200,
+ "min_build": 603,
+ "source": "https://nodejs.org/dist/v22.23.4/node-v22.23.4-linux-x64.tar.xz",
+ "commands": {
+  "node": "bin/node",
+  "npm": "lib/node_modules/npm/bin/npm-cli.js",
+  "npx": "lib/node_modules/npm/bin/npx-cli.js"
+ }
+}
